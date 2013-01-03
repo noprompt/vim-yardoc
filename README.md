@@ -71,7 +71,7 @@ file:
 ```
 
 You do not need to run the first and last commands, however, it may serve as a
-helpful marker in the future should you choose to edit the file in the future.
+helpful marker in the future should you choose to edit the file again.
 
 ## Usage
 
@@ -102,7 +102,7 @@ your current theme. For instance, you might like YARD tags to look like to look
 like instance variables (since both begin with an `@` symbol):
 
 ```viml
-hi link yardGenericDirective rubyInstanceVariable
+hi link yardGenericTag rubyInstanceVariable
 ```
 
 It's really quite painless.
@@ -152,7 +152,7 @@ yardScope
 yardVisibility
 ```
 
-### Types, Lists, and Hashes (as specified [here](http://rubydoc.info/docs/yard/file/docs/Tags.md#Hashes))
+#### Types, Lists, and Hashes (as specified [here](http://rubydoc.info/docs/yard/file/docs/Tags.md#Hashes))
 
 ```
 yardDuckType
@@ -165,7 +165,7 @@ yardHashAngle
 yardHashCurly
 ```
 
-Delimiters
+#### Delimiters
 
 ```
 yardComma
