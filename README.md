@@ -65,9 +65,9 @@ If `0` is printed, you can copy the contents of
 file:
 
 ```shell
-% echo -e "\n\" BEGIN vim-yardoc {{{"
+% echo -e "\n\" BEGIN vim-yardoc {{{" >> ~/.vim/syntax/after/ruby.vim
 % cat vim-yardoc/after/syntax/ruby.vim >> ~/.vim/syntax/after/ruby.vim
-% echo -e "\n\" END vim-yardoc }}}"
+% echo -e "\n\" END vim-yardoc }}}" >> ~/.vim/syntax/after/ruby.vim
 ```
 
 You do not need to run the first and last commands, however, it may serve as a
