@@ -69,7 +69,7 @@ syn cluster yardLists contains=yardComma,yardTypeList,yardOrderDependentList
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Yard
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-syn match yardComment "# @!\{,1}\h\+.*" contains=@yardTags,@yardDirectives,yardTypeList
+syn match yardComment "#\s*@!\{,1}\h\+.*" contains=@yardTags,@yardDirectives,yardTypeList
 syn match rubyComment "#.*" contains=rubySharpBang,rubySpaceError,rubyTodo,@Spell,yardComment
 syn region rubyMultilineComment start="\%(\%(^\s*#.*\n\)\@<!\%(^\s*#.*\n\)\)\%(\(^\s*#.*\n\)\{1,}\)\@=" end="\%(^\s*#.*\n\)\@<=\%(^\s*#.*\n\)\%(^\s*#\)\@!" contains=rubyComment transparent fold keepend
 syn cluster rubyNotTop add=@yardTags,@yardDirectives,@yardTypes,@yardLists,@yardHashes
