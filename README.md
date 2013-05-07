@@ -19,6 +19,7 @@ vim-yardoc.
 
 - [With pathogen](#with-pathogen)
 - [Without pathogen](#without-pathogen)
+- [With Vundle](#with-vundle)
 - [By hand](#by-hand)
 
 ### With pathogen
@@ -37,6 +38,19 @@ are as follows:
 
 Install the [pathogen](https://github.com/tpope/vim-pathogen) plugin. See
 [these](#with-pathogen) instructions.
+
+### With vundle
+
+Drop the following line in your `.vimrc`:
+
+```vim
+Bundle 'noprompt/vim-yardoc'
+```
+
+save it and either source it or reopen vim, after that type `:BundleInstall` in command mode to just 
+install the added bundle or `:BundleInstall!` to update all other bundles and install the new one.
+
+Close and reopen vim and you are done.
 
 ### By hand
 
