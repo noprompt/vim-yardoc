@@ -140,6 +140,7 @@ yardNote
 yardOption
 yardOverload
 yardParam
+yardParamName
 yardPrivate
 yardRaise
 yardReturn
