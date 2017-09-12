@@ -100,9 +100,9 @@ hi def link yardSee yardGenericTag
 hi def link yardSince yardGenericTag
 hi def link yardTodo yardGenericTag
 hi def link yardVersion yardGenericTag
-hi def link yield yardGenericTag
-hi def link yieldparam yardGenericTag
-hi def link yieldreturn yardGenericTag
+hi def link yardYield yardGenericTag
+hi def link yardYieldParam yardGenericTag
+hi def link yardYieldReturn yardGenericTag
 " Directives
 hi def link yardGenericDirective rubyTodo
 hi def link yardAttribute yardGenericDirective
