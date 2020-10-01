@@ -57,21 +57,21 @@ Close and reopen vim and you are done.
 Clone this repo to a location on your computer.
 
 ```shell
-% git clone https://github.com/noprompt/vim-yardoc.git /somewhere/vim-yardoc
+git clone https://github.com/noprompt/vim-yardoc.git /somewhere/vim-yardoc
 ```
 
 Next, check to make sure you don't already have a `ruby.vim` file in
 `~/.vim/after/syntax` like so:
 
 ```shell
-% test -f ~/.vim/syntax/after/ruby.vim
-% echo $?
+test -f ~/.vim/syntax/after/ruby.vim
+echo $?
 ```
 
 If `1` is printed, you're good to copy the file:
 
 ```shell
-% cp vim-yard/after/syntax/ruby.vim ~/.vim/syntax/after/ruby.vim
+cp vim-yard/after/syntax/ruby.vim ~/.vim/syntax/after/ruby.vim
 ````
 
 If `0` is printed, you can copy the contents of
@@ -79,9 +79,9 @@ If `0` is printed, you can copy the contents of
 file:
 
 ```shell
-% echo -e "\n\" BEGIN vim-yardoc {{{" >> ~/.vim/syntax/after/ruby.vim
-% cat vim-yardoc/after/syntax/ruby.vim >> ~/.vim/syntax/after/ruby.vim
-% echo -e "\n\" END vim-yardoc }}}" >> ~/.vim/syntax/after/ruby.vim
+echo -e "\n\" BEGIN vim-yardoc {{{" >> ~/.vim/syntax/after/ruby.vim
+cat vim-yardoc/after/syntax/ruby.vim >> ~/.vim/syntax/after/ruby.vim
+echo -e "\n\" END vim-yardoc }}}" >> ~/.vim/syntax/after/ruby.vim
 ```
 
 You do not need to run the first and last commands, however, it may serve as a
@@ -189,6 +189,4 @@ yardArrow
 
 ## Contributing
 
-Contributions and feedback are almost certainly encouraged. This is my first
-shot at writing syntax extensions for Vim so any assistence or suggestion is
-happily welcomed.
+Yes.
